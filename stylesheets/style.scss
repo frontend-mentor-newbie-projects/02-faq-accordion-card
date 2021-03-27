@@ -6,31 +6,32 @@
 
     The foregoing remain constant throughout all styles specified for all screens.
 */
+
 /* Varibables */
 /* -------------------- */
+
 /* Reset browser defaults */
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *, ::after, ::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body, p, a, ul, li {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
 li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 /* Base + Font styles */
 /* -------------------- */
+
 /*
     - Small mobile - 320px
     - Medium mobile - 375px
@@ -42,16 +43,17 @@ li {
 
     The foregoing a default breakpoints to consider when building a fluid website.
 */
+
 /* Mobile styles -- Starting point */
 /* 12 col | 8 col | 4 col */
 /* -------------------- */
+
 /* Footer styles */
 .attribution {
-  font-size: 11px;
-  text-align: center;
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a {
-  color: #3e52a3;
+    color: hsl(228, 45%, 44%);
 }
-/*# sourceMappingURL=style.css.map */
