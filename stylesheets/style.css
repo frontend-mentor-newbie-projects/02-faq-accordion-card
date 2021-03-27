@@ -29,7 +29,10 @@ li {
 }
 
 /* Base + Font styles */
-/* -------------------- */
+body {
+  font-family: "Kumbh Sans";
+}
+
 /*
     - Small mobile - 320px
     - Medium mobile - 375px

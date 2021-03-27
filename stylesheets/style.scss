@@ -41,7 +41,9 @@ li {
 }
 
 /* Base + Font styles */
-/* -------------------- */
+body {
+    font-family: $font-stack;
+}
 
 /*
     - Small mobile - 320px
