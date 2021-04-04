@@ -40,7 +40,7 @@ li {
 /* Base + Font styles */
 body {
     font-family: "Kumbh Sans";
-    
+
     background-image: linear-gradient(#af67e9, #6565e7);
     background-repeat: no-repeat;
 }
@@ -56,7 +56,16 @@ body {
 
 /* Mobile styles -- Starting point */
 // 12 col | 8 col | 4 col
-/* -------------------- */
+body {
+    display: flex;
+
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 72px 24px;
+}
 
 /* Footer styles */
 .attribution {
