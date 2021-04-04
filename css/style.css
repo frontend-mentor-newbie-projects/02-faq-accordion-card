@@ -28,6 +28,10 @@ body {
   background-repeat: no-repeat;
 }
 
+main #illustrations-desktop {
+  display: none;
+}
+
 main #illustrations-mobile {
   display: flex;
   flex-flow: column nowrap;
@@ -40,22 +44,22 @@ main #illustrations-mobile #woman {
   width: 288px;
   position: absolute;
   left: 8px;
-  top: -116px;
 }
 
 main #illustrations-mobile #shadow {
   width: 258px;
   position: absolute;
   left: 40px;
-  top: 0px;
 }
 
 main #faqs {
   width: 344px;
+  height: 416px;
+  position: relative;
+  top: 72px;
   padding: 0;
   margin: 0;
   padding: 0 24px;
-  margin-bottom: 48px;
 }
 
 main #faqs h1 {
@@ -63,7 +67,6 @@ main #faqs h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 144px;
   margin-bottom: 40px;
 }
 
@@ -74,7 +77,7 @@ main #faqs details {
 main #faqs details summary {
   font-size: 14px;
   font-weight: 400;
-  margin: 22px 0;
+  margin: 16px 0;
   outline: none;
   /* Remove default marker */
   list-style: none;
@@ -100,7 +103,7 @@ main #faqs p {
   color: #787887;
   font-size: 12px;
   line-height: 20px;
-  margin: 22px 0;
+  margin: 16px 0;
   padding-right: 48px;
 }
 
@@ -110,13 +113,14 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  min-height: 816px;
+  min-height: 768px;
   height: 100vh;
   margin: 0 auto;
   padding: 136px 24px 72px 24px;
 }
 
 main {
+  height: 560px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;

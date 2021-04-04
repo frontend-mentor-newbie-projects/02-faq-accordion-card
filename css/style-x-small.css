@@ -2,10 +2,11 @@
 @media screen and (min-width: 320px) {
   main #illustrations-mobile #woman {
     width: 248px;
-    top: -100px;
+    top: -172px;
   }
   main #illustrations-mobile #shadow {
     width: 218px;
+    top: -72px;
   }
   main #faqs {
     width: 300px;
@@ -29,10 +30,11 @@
 @media screen and (min-width: 350px) {
   main #illustrations-mobile #woman {
     width: 288px;
-    top: -116px;
+    top: -188px;
   }
   main #illustrations-mobile #shadow {
     width: 258px;
+    top: -72px;
   }
   main #faqs {
     width: 344px;
@@ -51,7 +53,7 @@
   }
   main #faqs p {
     text-align: left;
-    padding-right: 0;
+    padding-right: 48px;
   }
 }
 /*# sourceMappingURL=style-x-small.css.map */
