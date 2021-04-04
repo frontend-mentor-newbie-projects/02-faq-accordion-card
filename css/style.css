@@ -81,7 +81,7 @@ main #faqs details summary {
   /* Replace default marker */
 }
 
-main #faqs summary::after {
+main #faqs details summary::after {
   content: url(../images/icon-arrow-down.svg);
   float: right;
 }
@@ -110,7 +110,7 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  min-height: 768px;
+  min-height: 816px;
   height: 100vh;
   margin: 0 auto;
   padding: 136px 24px 72px 24px;

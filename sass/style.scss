@@ -55,7 +55,6 @@ main #illustrations-mobile {
     position: relative;
 
     #woman {
-        // display: none;
         width: 288px;
 
         position: absolute;
@@ -108,7 +107,7 @@ main #faqs {
         /* Replace default marker */
     }
 
-    summary::after {
+    details summary::after {
         content: url(../images/icon-arrow-down.svg);
         float: right;
     }
@@ -153,7 +152,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    min-height: 768px;
+    min-height: 816px; // TODO: To avoid clipping on illustration when the accordion is opened
     height: 100vh;
 
     margin: 0 auto;
