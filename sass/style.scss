@@ -45,6 +45,24 @@ body {
     background-repeat: no-repeat;
 }
 
+main #illustrations-mobile {
+    width: 100%; // TODO: The illustration is not centered
+
+    position: relative;
+
+    #woman {
+        position: absolute;
+        left: 15px;
+        top: -125px;
+    }
+
+    #shadow {
+        position: absolute;
+        left: 40px;
+        top: -25px;
+      }
+}
+
 // - Small mobile - 320px
 // - Medium mobile - 375px
 // - Large mobile - 425px
@@ -71,6 +89,10 @@ body {
 }
 
 main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
     color: $primary-1;
     background-color: white;
 
