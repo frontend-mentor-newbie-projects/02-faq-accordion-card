@@ -129,6 +129,11 @@ main #faqs {
         transform: rotate(180deg);
     }
 
+    details summary:hover {
+        color: $primary-2;
+        cursor: pointer;
+    }
+
     p {
         color: $neutral-2;
 

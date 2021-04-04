@@ -99,6 +99,11 @@ main #faqs details[open] summary::after {
   transform: rotate(180deg);
 }
 
+main #faqs details summary:hover {
+  color: #f47c57;
+  cursor: pointer;
+}
+
 main #faqs p {
   color: #787887;
   font-size: 12px;
