@@ -63,8 +63,29 @@ body {
     justify-content: center;
     align-items: center;
 
+    min-height: 768px;
+    height: 100vh;
+
     margin: 0 auto;
     padding: 72px 24px;
+}
+
+main {
+    color: $primary-1;
+    background-color: white;
+
+    min-width: 280px;
+    max-width: 344px;
+
+    border-radius: 1rem;
+    padding: 1rem;
+
+    box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.1),
+    0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1),
+    0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer styles */
