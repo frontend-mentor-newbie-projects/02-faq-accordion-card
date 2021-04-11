@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Frontend Mentor Solution
-- [Live Site](https://likelytwitchdollop.github.io/faq-accordion-card/)
+- [Live Site](https://frontend-mentor-newbie-projects.github.io/02-faq-accordion-card/)
 
 ## My process
 
